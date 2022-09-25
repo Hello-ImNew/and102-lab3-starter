@@ -20,11 +20,13 @@ class BestSellerBook {
     @SerializedName("author")
     var author: String? = null
 
-    //TODO bookImageUrl
+    @SerializedName("book_image")
+    val bookImageUrl: String? = null
+
+    @SerializedName("description")
+    val description: String? = null
 
 
-    //TODO description
-
-
-    //TODO-STRETCH-GOALS amazonUrl
+    @SerializedName("amazon_product_url")
+    val amazonUrl: String? = null
 }
